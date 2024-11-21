@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Kolam Renang</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #74b9ff, #0984e3);
+            color: #fff;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .navbar-brand {
+            color: #fff !important;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff !important;
+            font-size: 16px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #74b9ff !important;
+        }
+
+        /* Hero Section Styling */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            background: url('https://source.unsplash.com/1600x900/?swimming-pool') no-repeat center center/cover;
+            color: #fff;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            font-weight: 300;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+
+        .hero .btn {
+            padding: 12px 30px;
+            font-size: 16px;
+            border-radius: 50px;
+            background-color: #0984e3;
+            border: none;
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+
+        .hero .btn:hover {
+            background-color: #74b9ff;
+            color: #fff;
+        }
+
+        /* Info Section Styling */
+        .info-section {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #fff;
+            color: #2c3e50;
+        }
+
+        .info-section h2 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+
+        .info-section p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .info-section .btn {
+            background-color: #0984e3;
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+
+        .info-section .btn:hover {
+            background-color: #74b9ff;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#">KolamRenang</a>
+    <div class="collapse navbar-collapse justify-content-end">
+      <ul class="navbar-nav">
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero">
+    <h1>Welcome to Kolam Renang Segar</h1>
+    <p>RASAKAN SENDIRI KESEGARAN DAN KESENANGANNYA!!!</p>
+    <a href="#about" class="btn">Learn More</a>
+</div>
+
+<!-- Info Section -->
+<section class="info-section" id="about">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>Hubungi kami Jika ingin Ingin mengetahui Lebih lanjut</p>
+        <a href="/contact" class="btn">Contact Us</a>
+    </div>
+</section>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

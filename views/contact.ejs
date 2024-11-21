@@ -1,0 +1,74 @@
+<div class="container py-5">
+    <h1 class="text-center mb-4">Contact Us</h1>
+    <p class="text-center text-muted mb-5">
+       Anda punya pertanyaan? Yuk Hubungi kami.
+    </p>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8">
+            <form action="submit_contact.php" method="POST" class="p-4 rounded shadow bg-white">
+                <div class="form-group mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Full Name" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email Address" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary px-5">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(to bottom right, #f8f9fa, #e3f2fd);
+        color: #333;
+    }
+
+    h1 {
+        font-weight: bold;
+        color: #007bff;
+    }
+
+    form {
+        background-color: #ffffff;
+    }
+
+    .form-control {
+        border-radius: 0.5rem;
+        padding: 0.75rem;
+        border: 1px solid #ced4da;
+        font-size: 16px;
+    }
+
+    .form-control:focus {
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        border-color: #007bff;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+        border-radius: 0.5rem;
+        font-size: 16px;
+        padding: 0.75rem 2rem;
+        transition: all 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+    .shadow {
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+</style>
